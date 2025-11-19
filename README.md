@@ -259,28 +259,28 @@ El Sistema de Mesa de Ayuda con IA de CORPORATE EPIS PILOT demuestra innovación
 ### 1. Interfaz del Chat
 **Descripción:** Interfaz del chat en http://localhost:5173 mostrando el chatbot operativo con respuestas del modelo IA.
 
-![alt text](image.png)
+![alt text](evidencias/image.png)
 
 ---
 
 ### 2. Ticket Generado
 **Descripción:** Ticket generado en la base de datos SQLite después de enviar un mensaje de problema.
-![alt text](image-2.png)
-![alt text](image-1.png)
+![alt text](evidencias/image-2.png)
+![alt text](evidencias/image-1.png)
 
 ---
 
 ### 3. Configuración Docker
 **Descripción:** Archivo docker-compose.yml abierto en VSCode, mostrando la configuración completa de servicios, puertos y volúmenes.
 
-![alt text](image-3.png)
+![alt text](evidencias/image-3.png)
 
 ---
 
 ### 4. Respuesta del Modelo
 **Descripción:** Frontend mostrando una respuesta del modelo IA smollm:360m a una consulta sobre soporte técnico.
 
-![alt text](image-4.png)
+![alt text](evidencias/image-4.png)
 
 
 ---
@@ -288,35 +288,35 @@ El Sistema de Mesa de Ayuda con IA de CORPORATE EPIS PILOT demuestra innovación
 ### 5. Código Vulnerable - CORS
 **Descripción:** VSCode abierto en backend/main.py, resaltando línea 47 con configuración CORS insegura (orígenes "*").
 
-![alt text](image-5.png)
+![alt text](evidencias/image-5.png)
 
 ---
 
 ### 6. Código Vulnerable - Endpoint sin Autenticación
 **Descripción:** VSCode mostrando línea 111 en main.py donde el endpoint /ask no tiene autenticación implementada.
 
-![alt text](image-6.png)
+![alt text](evidencias/image-6.png)
 
 ---
 
 ### 7. Código Vulnerable - Logging Inseguro
 **Descripción:** VSCode mostrando línea 141 en main.py con logging sin sanitización de datos sensibles.
 
-![alt text](image-7.png)
+![alt text](evidencias/image-7.png)
 
 ---
 
 ### 8. Logs Sensibles
 **Descripción:** Terminal donde corre el backend, mostrando logs de una solicitud al endpoint /ask con datos sensibles expuestos.
 
-![alt text](image-8.png)
+![alt text](evidencias/image-8.png)
 
 ---
 
 ### 9. Configuración Ollama
 **Descripción:** Configuración en main.py mostrando conexión a Ollama en host.docker.internal:11434 sin restricciones.
 
-![alt text](image-9.png)
+![alt text](evidencias/image-9.png)
 
 ---
 
@@ -330,15 +330,15 @@ El Sistema de Mesa de Ayuda con IA de CORPORATE EPIS PILOT demuestra innovación
 ### 11. Base de Datos SQLite
 **Descripción:** Visualización de la base de datos SQLite sin encriptación conteniendo tickets de soporte.
 
-![alt text](image-10.png)
+![alt text](evidencias/image-10.png)
 
 ---
 
 ### 12. Configuración Nginx
 **Descripción:** Configuración de nginx mostrando ausencia de SSL/TLS para HTTPS.
 
-![alt text](image-11.png)
-![alt text](image-12.png)
+![alt text](evidencias/image-11.png)
+![alt text](evidencias/image-12.png)
 ---
 
 ## REGISTROS DE LOGS
@@ -353,7 +353,7 @@ INFO:     Procesando con modelo smollm:360m
 DEBUG:    Respuesta generada en 2.3s
 INFO:     Ticket #1234 creado para juan.perez@corporate.com
 ```
-![alt text](image-13.png)
+![alt text](evidencias/image-13.png)
 
 ---
 
@@ -376,15 +376,15 @@ INFO:     Ticket #1234 creado para juan.perez@corporate.com
 - Puertos expuestos: 
 
 http://localhost:5173
-![alt text](image-15.png)
+![alt text](evidencias/image-15.png)
 
 http://localhost:11434
-![alt text](image-14.png)
+![alt text](evidencias/image-14.png)
 
 
 - Volúmenes persistentes configurados
 - **Hallazgo:** Falta de health checks y restricciones de red
-![alt text](image-16.png)
+![alt text](evidencias/image-16.png)
 
 ### backend/main.py
 - Framework: FastAPI
@@ -394,5 +394,5 @@ http://localhost:11434
 
 ### requirements.txt
 - **Hallazgo:** Versiones vulnerables de langchain
-![alt text](image-17.png)
+![alt text](evidencias/image-17.png)
 - **Hallazgo:** Falta proceso de actualización automatizada
