@@ -1,33 +1,29 @@
-# AUDITORIA_EXAMEN_3
-
-**Repositorio:** https://github.com/[usuario]/AUDITORIA_EXAMEN_3
-
 # INFORME FINAL DE AUDITORÍA DE SISTEMAS
 
 ## CARÁTULA
 
 **Entidad Auditada:** CORPORATE EPIS PILOT
-**Ubicación:** Tacna
-**Período auditado:** Del 01/11/2025 al 19/11/2025
-**Equipo Auditor:** AUDITOR ALBERT KENYI APAZA CCALLE, EQUIPO: KENYIDEV
-**Fecha del informe:** 19/11/2025
+**Ubicación:** Tacna  
+**Período auditado:** Del 01/11/2025 al 19/11/2025  
+**Equipo Auditor:** AUDITOR ALBERT KENYI APAZA CCALLE, EQUIPO: KENYIDEV  
+**Fecha del informe:** 19/11/2025  
 
 
 ## ÍNDICE
 
-1. [Resumen Ejecutivo](#1-resumen-ejecutivo)
-2. [Antecedentes](#2-antecedentes)
-3. [Objetivos de la Auditoría](#3-objetivos-de-la-auditoría)
-4. [Alcance de la Auditoría](#4-alcance-de-la-auditoría)
-5. [Normativa y Criterios de Evaluación](#5-normativa-y-criterios-de-evaluación)
-6. [Metodología y Enfoque](#6-metodología-y-enfoque)
-7. [Hallazgos y Observaciones](#7-hallazgos-y-observaciones)
-8. [Análisis de Riesgos](#8-análisis-de-riesgos)
-9. [Recomendaciones](#9-recomendaciones)
-10. [Conclusiones](#10-conclusiones)
-11. [Plan de Acción y Seguimiento](#11-plan-de-acción-y-seguimiento)
-12. [Anexos](#12-anexos)
-13. [Guía para Levantar el Proyecto](#13-guía-para-levantar-el-proyecto)
+1. [Resumen Ejecutivo](#1-resumen-ejecutivo)  
+2. [Antecedentes](#2-antecedentes)  
+3. [Objetivos de la Auditoría](#3-objetivos-de-la-auditoría)  
+4. [Alcance de la Auditoría](#4-alcance-de-la-auditoría)  
+5. [Normativa y Criterios de Evaluación](#5-normativa-y-criterios-de-evaluación)  
+6. [Metodología y Enfoque](#6-metodología-y-enfoque)  
+7. [Hallazgos y Observaciones](#7-hallazgos-y-observaciones)  
+8. [Análisis de Riesgos](#8-análisis-de-riesgos)  
+9. [Recomendaciones](#9-recomendaciones)  
+10. [Conclusiones](#10-conclusiones)  
+11. [Plan de Acción y Seguimiento](#11-plan-de-acción-y-seguimiento)  
+12. [Anexos](#12-anexos)  
+13. [Guía para Levantar el Proyecto](#13-guía-para-levantar-el-proyecto)  
 
 ### Diagrama de Estructura del Informe (Mindmap)
 
@@ -102,7 +98,7 @@ graph TD
 - COBIT 2019 (Gobierno y Gestión de TI Empresarial)
 - Ley N° 29733 - Ley de Protección de Datos Personales (Perú)
 - OWASP Top 10 (Vulnerabilidades web)
-- Políticas internas de TI de CORPORATE EPIS PILOT (donde aplicable)
+- Políticas internas de TI de UPT (donde aplicable)
 
 ## 6. METODOLOGÍA Y ENFOQUE
 
@@ -227,10 +223,10 @@ gantt
 
 ## 12. ANEXOS
 
-- evidencias/funcionalidad_prueba.md: Pruebas de funcionamiento del sistema
-- evidencias/docker_config.md: Análisis de configuración Docker
-- evidencias/modelo_ia.md: Evaluación del modelo smollm:360m
-- evidencias/seguridad_codigo.md: Análisis de seguridad del código
+- evidencias/funcionalidad_prueba.txt: Pruebas de funcionamiento del sistema
+- evidencias/docker_config.txt: Análisis de configuración Docker
+- evidencias/modelo_ia.txt: Evaluación del modelo smollm:360m
+- evidencias/seguridad_codigo.txt: Análisis de seguridad del código
 - Cuestionarios aplicados a desarrolladores
 - Capturas de pantalla de configuraciones Docker
 - Registros de logs de pruebas
