@@ -127,3 +127,4 @@ Incluir documentos de respaldo como:
 - Registros de logs  
 - Políticas internas revisadas  
 - Cualquier otro elemento que sustente los hallazgos
+ 

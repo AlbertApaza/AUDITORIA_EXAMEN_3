@@ -11,7 +11,7 @@ services:
     # Permite que el contenedor se comunique con Ollama en tu máquina
     extra_hosts:
       - "host.docker.internal:host-gateway"
-
+ 
   # Servicio del Frontend (sin puertos expuestos)
   frontend:
     build: ./frontend
